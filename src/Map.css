@@ -1,0 +1,55 @@
+.map{
+     height:500px;
+     background-color: #fff;
+     padding:1rem;
+     border-radius: 20px;
+     margin-top:16px;
+     box-shadow: 0 0 8px -4px rgba(0,0,0, 0.5);
+}
+
+.map .leaflet-container{
+     height:100%
+}
+
+.fixPad{
+     margin: 5px 0!important;
+}
+ .leaflet-popup-content-wrapper{
+     background-color: #f5f6fa !important
+}
+.bold{
+     font-weight: bold ;
+     font-size:17px;
+}
+.infoBox.cases{
+     border-top: 5px solid #f16f00;
+     color:#f16f00;
+}
+.infoBox.recovered{
+     border-top: 5px solid #488c00;
+     color:#488c00;
+}
+.infoBox.deaths{
+     border-top: 5px solid #fb4443;
+     color:#fb4443;
+}
+
+h3.cases{
+  
+     padding-top:10px;
+     color:#f16f00;
+     display: inline-block;
+}
+h3.recovered{
+     padding-top:10px;
+     color:#488c00;
+     display: inline-block;
+}
+h3.deaths{
+     padding-top:10px;
+     color:#fb4443;
+     display: inline-block;
+}
+.lineGraph__title{
+     padding:20px 0px;
+}
